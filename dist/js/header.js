@@ -1,0 +1,1 @@
+(()=>{const s=document.querySelector("header");window.addEventListener("scroll",(function(){window.scrollY>0?s.classList.add("nav-show"):s.classList.remove("nav-show")}))})();
