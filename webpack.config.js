@@ -11,12 +11,12 @@ module.exports = {
     particles: path.resolve(__dirname, './src/js/particles.js'),
   },
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'public'),
     filename: 'js/[name].js',
   },
   devServer: {
     static: {
-      directory: path.resolve(__dirname, 'dist'),
+      directory: path.resolve(__dirname, 'public'),
     },
     port: 3000,
     open: true,
