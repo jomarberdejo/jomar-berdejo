@@ -469,7 +469,7 @@ footer {
 
 .social-media a:hover,
 .go-top img:hover {
-  box-shadow: 0 0 50px var(--color-info);
+  box-shadow: 0 0 10px var(--color-info);
 }
 
 .intro > * {
