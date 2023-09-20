@@ -440,6 +440,11 @@ footer {
   justify-content: center;
 }
 
+.social-media a{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
 
 .social-media a img {
   cursor: pointer;
@@ -451,7 +456,7 @@ footer {
 }
 
 .social-media a img:hover,
-.go-top img
+.go-top img:hover
 {
   box-shadow: 0 0 50px var(--color-info);
 }
