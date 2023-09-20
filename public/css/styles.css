@@ -467,10 +467,7 @@ footer {
   border-radius: 50%;
 }
 
-.social-media a:hover,
-.go-top img:hover {
-  box-shadow: 0 0 10px var(--color-info);
-}
+
 
 .intro > * {
   text-align: center;
@@ -593,7 +590,7 @@ form label {
   font-size: 1.2rem;
 }
 
-form input[type="button"] {
+form input[type="submit"] {
   display: block;
   width: 70px;
   padding: 6px;
@@ -603,7 +600,7 @@ form input[type="button"] {
   background-color: #0000ff;
 }
 
-form input[type="button"]:hover {
+form input[type="submit"]:hover {
   background-color: #0000ff33;
 }
 
