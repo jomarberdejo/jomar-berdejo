@@ -8,16 +8,16 @@
   <meta property="og:title" content="Jomar Berdejo - Front End Developer">
   <meta property="og:description" content="Jomar Berdejo - A Portfolio Website">
   <meta property="og:image" content="images/mypic.jpg">
-  <link rel="stylesheet" href="css/particles.css">
+  <link rel="stylesheet" href="particles.css">
 
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="styles.css">
   
-  <script src="js/email.js"></script>
-  <script defer src="js/particles.js"></script>
-  <script defer src="js/header.js"></script>
-  <script defer src="js/animation.js"></script>
-  <script defer src="js/observer.js"></script>
-  <script defer src="js/toggleMenu.js"></script>
+  <script src="email.js"></script>
+  <script defer src="particles.js"></script>
+  <script defer src="header.js"></script>
+  <script defer src="animations.js"></script>
+  <script defer src="observer.js"></script>
+  <script defer src="toggleMenu.js"></script>
 
  
  <!-- Dependencies-->
@@ -193,7 +193,7 @@ Here are some of the list of my projects that I have built.
 <div class="card">
 <div class="face face1">
 <div class="content">
-<img src="images/kuya-jc.png">
+<img src="images/landing-page.png">
 <h3>Kuya JC Fried Chicken</h3>
 </div>
 </div>
@@ -241,7 +241,7 @@ A tutorial site designed to help people to get started with web development jour
 <div class="card">
 <div class="face face1">
 <div class="content">
-<img src="images/js-quickstart.png">
+<img src="images/web-sis.png">
 <h3>Student Info. System</h3>
 </div>
 </div>
@@ -254,7 +254,7 @@ A system that allows admin to manage students in an easy way.
 <strong>Tech Used:</strong> <span>HTML, CSS, JavaScript, Bootstrap</span>
 </p>
 <div class="links">
-<a href="https://javascript-quickstart.vercel.app">Live Demo</a>
+<a href="https://web-based-sis.vercel.app">Live Demo</a>
 
 <a href="#">Github Repo</a>
 </div>
@@ -265,7 +265,7 @@ A system that allows admin to manage students in an easy way.
 <div class="card">
 <div class="face face1">
 <div class="content">
-<img src="images/js-quickstart.png">
+<img src="images/echoed.png">
 <h3>Echoed Moments</h3>
 </div>
 </div>
@@ -278,7 +278,7 @@ A Website where you can treasure memories, tell stories, and share your experien
 <strong>Tech Used: </strong> <span>React, CSS3, Firebase</span>
 </p>
 <div class="links">
-<a href="https://javascript-quickstart.vercel.app">Live Demo</a>
+<a href="https://echoed-moments.web.app">Live Demo</a>
 
 <a href="#">Github Repo</a>
 </div>
@@ -309,7 +309,7 @@ Please send your message here or email me <strong><a href="mailto:jomarberdejo1@
 </p>
 <div class="form-container">
 
-<form>
+<form onsubmit="SendMail(event)">
 <label for="name">Name</label>
 <input id="fullname" type="text" required name="name">
 <label for="email">Email</label>
@@ -317,7 +317,7 @@ Please send your message here or email me <strong><a href="mailto:jomarberdejo1@
 
 <label for="message">Message</label>
 <textarea id="message" required name="message" cols="30" rows="10" placeholder="Enter your message here..."></textarea>
-<input type="button" value="Send" id="send-email-btn">
+<input type="submit" value="Send">
 </form>
 </div>
 
