@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function SendMail(event) {
     event.preventDefault();
 
-    const submitButton = document.querySelector('input[type="submit"]');
+    const submitButton = document.querySelector('input[type="button"]');
     submitButton.disabled = true;
     submitButton.value = "...";
 
