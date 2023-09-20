@@ -440,11 +440,6 @@ footer {
   justify-content: center;
 }
 
-.social-media a {
-  margin: 10px;
-  text-align: center;
-  display: inline-block;
-}
 
 .social-media a img {
   cursor: pointer;
@@ -452,6 +447,13 @@ footer {
   height: 40px;
   object-fit: cover;
   border-radius: 4px;
+  
+}
+
+.social-media a img:hover,
+.go-top img
+{
+  box-shadow: 0 0 50px var(--color-info);
 }
 
 .go-top {
