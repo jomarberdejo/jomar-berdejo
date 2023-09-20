@@ -588,7 +588,7 @@ textarea:focus {
   outline: 2px solid blue;
 }
 
-form input[type="submit"] {
+form input[type="button"] {
   margin: 15px 0;
   outline: 2px solid var(--color-text);
 }
@@ -597,7 +597,7 @@ form label {
   font-size: 1.2rem;
 }
 
-form input[type="submit"] {
+form input[type="button"] {
   display: block;
   width: 70px;
   padding: 6px;
@@ -607,7 +607,7 @@ form input[type="submit"] {
   background-color: #0000ff;
 }
 
-form input[type="submit"]:hover {
+form input[type="button"]:hover {
   background-color: #0000ff33;
 }
 
