@@ -1,4 +1,4 @@
-const header = document.querySelector("header");
+const header = document.querySelector('.header-container');
 
     function updateHeader() {
       if (window.scrollY > 0) {

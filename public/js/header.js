@@ -1,1 +1,1 @@
-(()=>{const s=document.querySelector("header");window.addEventListener("scroll",(function(){window.scrollY>0?s.classList.add("nav-show"):s.classList.remove("nav-show")}))})();
+(()=>{const e=document.querySelector(".header-container");window.addEventListener("scroll",(function(){window.scrollY>0?e.classList.add("nav-show"):e.classList.remove("nav-show")}))})();
