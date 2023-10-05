@@ -1,7 +1,9 @@
-particlesJS("particles-js", {
+
+      
+particlesJS('particles-js', {
   "particles": {
     "number": {
-      "value": 10,
+      "value": 5,
       "density": {
         "enable": true,
         "value_area": 900
@@ -18,56 +20,43 @@ particlesJS("particles-js", {
       },
       "polygon": {
         "nb_sides": 5
-      },
-      "image": {
-        "src": "",
-        "width": 100,
-        "height": 100
       }
     },
     "opacity": {
-      "value": 1,
-      "random": false,
+      "value": 0.9,
+      "random": true,
       "anim": {
-        "enable": true, 
+        "enable": true,
         "speed": 5,
-        "opacity_min": 0.1,
-        "sync": false
+        "opacity_min": 0,
+        "sync": true
       }
     },
     "size": {
-      "value": 2.5,
+      "value": 5,
       "random": true,
       "anim": {
-        "enable": false,
-        "speed": 10,
+        "enable": false, 
+        "speed": 2,    
         "size_min": 0.1,
         "sync": false
       }
     },
     "line_linked": {
-      "enable": false,
-      "distance": 150,
-      "color": "#f2f2f2",
-      "opacity": 0.4,
-      "width": 1
+      "enable": false
     },
     "move": {
-      "enable": true,
-      "speed": 0.3,
+      "enable": false,
+      "speed": 2,
       "direction": "top-right",
       "random": false,
       "straight": true,
       "out_mode": "out",
-      "bounce": false,
-      "attract": {
-        "enable": false,
-        "rotateX": 600,
-        "rotateY": 1200
-      }
+      "bounce": false
     }
   },
   "interactivity": {
+    "detect_on": "canvas",
     "events": {
       "onhover": {
         "enable": false,
@@ -80,25 +69,23 @@ particlesJS("particles-js", {
       "resize": true
     }
   },
-
-  
   "retina_detect": true
 });
 
 
 
 particlesJS('particles-js2', {
-        "particles": {
-          "number": {
-            "value": 5,
-            "density": {
-              "enable": true,
-              "value_area": 900
-            }
-          },
-          "color": {
-            "value": "#ffffff"
-          },
+  "particles": {
+    "number": {
+      "value": 3,
+      "density": {
+        "enable": true,
+        "value_area": 900
+      }
+    },
+    "color": {
+      "value": "#ffffff"
+    },
           "shape": {
             "type": "image",
             "image": {
@@ -106,56 +93,42 @@ particlesJS('particles-js2', {
               "width": 50,
               "height": 50
             }
-          },
-          "opacity": {
-            "value": 0.5,
-            "random": false,
-            "anim": {
-              "enable": false,
-              "speed": 1,
-              "opacity_min": 0.1,
-              "sync": false
-            }
-          },
-          "size": {
-            "value": 25,
-            "random": true,
-            "anim": {
-              "enable": false,
-              "speed": 40,
-              "size_min": 0.1,
-              "sync": false
-            }
-          },
-          "line_linked": {
-            "enable": false
-          },
-          "move": {
-            "enable": true,
-            "speed": 0.8,
-            "direction": "right",
-            "random": false,
-            "straight": false,
-            "out_mode": "out",
-            "bounce": false
-          }
-        },
-        "interactivity": {
-          "detect_on": "canvas",
-          "events": {
-            "onhover": {
-              "enable": true,
-              "mode": "repulse"
-            },
-            "onclick": {
-              "enable": false,
-              "mode": "push"
-            },
-            "resize": true
-          },
-        },
-        "retina_detect": true
-      });
-      
-      
+    },
+    "opacity": {
+      "value": 0.5,
+      "random": false
+    },
+    "size": {
+      "value": 20,
+      "random": true
+    },
+    "line_linked": {
+      "enable": false
+    },
+    "move": {
+      "enable": true,
+      "speed": 0.8,
+      "direction": "right",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "repulse"
+      },
+      "onclick": {
+        "enable": false
+      },
+      "resize": true
+    }
+  },
+  "retina_detect": true
+});
+
   
