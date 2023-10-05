@@ -140,6 +140,7 @@ nav ul {
 
 .about-content .hero img {
   width: 280px;
+  height: 280px;
   border-radius: 6px;
   object-fit: cover;
   display: block;
@@ -386,8 +387,9 @@ hr {
   z-index: 99;
   margin-bottom: 0;
   padding-bottom: 100px;
-  /* background: radial-gradient(circle, #000000 20%, #1a1a1a 80%); */
+  /* 
   background-color: var(--color-gradient);
+ */ background: radial-gradient(circle, #000000 20%, #1a1a1a 80%); 
 }
 
 #contact h3 {
@@ -746,6 +748,9 @@ form input[type="button"]:hover {
     width: 100%;
   }
   
+  .about-content .hero img{
+    width: 100%;
+  }
   
   nav ul {
     position: fixed;
@@ -794,9 +799,7 @@ form input[type="button"]:hover {
     transform: rotate(45deg) translate(-5px, -6px);
   }
   
-  .about-content .hero img{
-    width: 100%;
-  }
+
   .about-content {
     display: grid;
     grid-template-columns: 1fr;
