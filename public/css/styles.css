@@ -598,27 +598,28 @@ textarea:invalid {
 
 
 
-form input[type="button"] {
-  margin: 15px 0;
-  outline: 2px solid var(--color-text);
-}
 
 form label {
   font-size: 1.2rem;
 }
 
 form input[type="button"] {
+  outline: none!important;
+  margin: 15px 0;
   display: block;
-  width: 70px;
+  width: 100%;
   padding: 6px;
   font-size: 1.1rem;
   font-weight: bold;
   color: var(--color-text);
   background-color: #0000ff;
+  
 }
 
 form input[type="button"]:hover {
-  background-color: #0000ff33;
+  background-color: #0000ff99;
+  box-shadow: 1px 1px 1px #808080, 1px 1px 2px #808080, 1px 1px 5px #808080;
+
 }
 
 .skills p,
