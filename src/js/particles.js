@@ -1,21 +1,19 @@
-/*particlesJS("particles-js", {
-
+particlesJS("particles-js", {
   "particles": {
-
     "number": {
-      "value": 45,
+      "value": 10,
       "density": {
         "enable": true,
-        "value_area":900
+        "value_area": 900
       }
     },
     "color": {
-      "value":"#fff"
+      "value": "#ffffff"
     },
     "shape": {
       "type": "circle",
       "stroke": {
-        "width": 0,
+        "width": 0.8,
         "color": "#000000"
       },
       "polygon": {
@@ -28,17 +26,17 @@
       }
     },
     "opacity": {
-      "value": 0.6,
+      "value": 1,
       "random": false,
       "anim": {
-        "enable": false,
-        "speed": 1,
+        "enable": true, 
+        "speed": 5,
         "opacity_min": 0.1,
         "sync": false
       }
     },
     "size": {
-      "value": 5,
+      "value": 2.5,
       "random": true,
       "anim": {
         "enable": false,
@@ -48,7 +46,7 @@
       }
     },
     "line_linked": {
-      "enable": true,
+      "enable": false,
       "distance": 150,
       "color": "#f2f2f2",
       "opacity": 0.4,
@@ -56,10 +54,10 @@
     },
     "move": {
       "enable": true,
-      "speed": 5,
-      "direction": "none",
+      "speed": 0.3,
+      "direction": "top-right",
       "random": false,
-      "straight": false,
+      "straight": true,
       "out_mode": "out",
       "bounce": false,
       "attract": {
@@ -109,15 +107,16 @@
   },
   "retina_detect": true
 });
-*/
+
+
 
 particlesJS('particles-js2', {
         "particles": {
           "number": {
-            "value": 8,
+            "value": 5,
             "density": {
               "enable": true,
-              "value_area": 800
+              "value_area": 900
             }
           },
           "color": {
@@ -156,7 +155,7 @@ particlesJS('particles-js2', {
           },
           "move": {
             "enable": true,
-            "speed": 1.3,
+            "speed": 0.8,
             "direction": "right",
             "random": false,
             "straight": false,

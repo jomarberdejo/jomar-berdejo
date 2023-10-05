@@ -586,15 +586,15 @@ form textarea {
   font-size: 1.1rem;
 }
 
-form input:valid,
-textarea:valid {
-  outline-color: #71d300;
+
+
+
+form input:invalid,
+textarea:invalid {
+  outline: 2px solid red;
 }
 
-form input:focus,
-textarea:focus {
-  outline: 2px solid blue;
-}
+
 
 form input[type="button"] {
   margin: 15px 0;
