@@ -387,9 +387,10 @@ hr {
   z-index: 99;
   margin-bottom: 0;
   padding-bottom: 100px;
-  /* 
+  
   background-color: var(--color-gradient);
- */ background: radial-gradient(circle, #000000 20%, #1a1a1a 80%); 
+ /* background: radial-gradient(circle, #000000 20%, #1a1a1a 80%); 
+ */
 }
 
 #contact h3 {
