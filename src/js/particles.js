@@ -27,7 +27,7 @@ particlesJS('particles-js', {
       "random": true,
       "anim": {
         "enable": true,
-        "speed": 1,
+        "speed": 6,
         "opacity_min": 0.1,
         "sync": false
       }
