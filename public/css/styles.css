@@ -63,7 +63,7 @@ header {
 
 .header-container:hover{
   opacity: 1;
-  background: var(--color-primary);
+  background: linear-gradient(#000000 20%, #1a1a1a 80%); 
 }
 
 header h2 {
@@ -773,24 +773,39 @@ form input[type="button"]:hover {
   
   nav ul {
     position: fixed;
-    top: 50px;
+    top: 61px;
     right: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     list-style: none;
     transform: translateX(100%);
-    width: 40%;
-    margin-inline: auto;
-    background-color: var(--color-primary);
+    width: 35%;
+    background: radial-gradient(circle, #000000 20%, #1a1a1a 80%); 
     height: calc(100vh - 50px);
     transition: transform 0.5s ease-in-out;
     justify-content: center;
     gap: 5rem;
+    
   }
+ 
+ nav ul li{
+   width: 70px;
+   margin-inline:  auto;
+ }
+ 
+
+ 
+  
+  
   nav ul.show {
     transform: translateX(0%);
     z-index: 9999;
+  }
+  
+  nav a{
+    margin: 0;
+    
   }
 
   #burger-button {
