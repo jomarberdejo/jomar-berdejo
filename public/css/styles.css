@@ -31,7 +31,7 @@ html {
 
 body {
   color: var(--color-secondary);
-  background-image: var(--color-gradient);
+  background: radial-gradient(#000000 20%, #1a1a1a 80%); 
   font-size: 16px;
 }
 
@@ -630,7 +630,7 @@ form input[type="button"] {
   font-size: 1.1rem;
   font-weight: bold;
   color: var(--color-text);
-  background-color: #0000ff;
+  background-color: #4a4af6;
   
 }
 
