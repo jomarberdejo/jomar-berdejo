@@ -70,6 +70,7 @@ header h2 {
   font-size: 1.6rem;
   color: var(--color-text);
   position: relative;
+  cursor: pointer;
 }
 
 header h2::after {
@@ -121,7 +122,7 @@ nav a {
   left: 0;
   transform: scaleX(0.5);
   transform-origin: left;
-  transition: transform 250ms ease-in-out;
+  transition: transform 200ms ease-in-out;
 }
 nav a:hover::after{
   transform: scaleX(1);
@@ -253,6 +254,7 @@ hr {
   flex: 0 0 100px;
   background: #225;
   transition: transform 0.5s ease;
+  cursor: pointer;
 }
 
 .skills-content .card:hover {
@@ -265,6 +267,7 @@ hr {
   height: 50px;
   object-fit: cover;
   filter: invert(1);
+  
 }
 
 .projects {
@@ -372,7 +375,7 @@ hr {
 }
 
 .container .card .face.face2 .content a:hover {
-  background: var(--color-info);
+  background-color: #0000ff88;
   color: #fff;
 }
 
@@ -630,12 +633,14 @@ form input[type="button"] {
   font-size: 1.1rem;
   font-weight: bold;
   color: var(--color-text);
-  background-color: #5858f8;
+  background-color: #0000ff99;
+  cursor: pointer;
   
 }
 
 form input[type="button"]:hover {
-  background-color: #0000ff99;
+  
+  background-color: #0000ff77;
   box-shadow: 1px 1px 1px #808080, 1px 1px 2px #808080, 1px 1px 5px #808080;
 
 }
