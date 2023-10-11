@@ -253,6 +253,7 @@ hr {
   flex: 0 0 100px;
   background: #225;
   transition: transform 0.5s ease;
+  cursor: pointer;
 }
 
 .skills-content .card:hover {
@@ -398,7 +399,7 @@ hr {
 }
 
 .container .card .face.face2 .content a:hover {
-  background: var(--color-info);
+  background-color: #0000ff55;
   color: #fff;
 }
 
@@ -464,6 +465,7 @@ footer {
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  min-height: 70px;
 }
 
 .copyright {
@@ -538,6 +540,8 @@ footer {
 
   
 }
+
+
 
 
 
@@ -656,7 +660,8 @@ form input[type="button"] {
   font-size: 1.1rem;
   font-weight: bold;
   color: var(--color-text);
-  background-color: #5858f8;
+  background-color: #0000ff88;
+  cursor: pointer;
   
 }
 
