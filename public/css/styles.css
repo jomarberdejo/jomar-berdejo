@@ -302,7 +302,7 @@ hr {
 }
 .container .card {
   position: relative;
-  cursor: pointer;
+  
   margin: 0 30px;
 }
 
@@ -489,11 +489,19 @@ footer {
   
 }
 
+.footer-copyright {
+  border-top: 1px solid #9085f7;
+  padding: 10px 0;
+  text-align: center;
+}
+
+
 .footer-copyright a {
   text-decoration: none;
   color: #b0b0e9;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
+  
 }
 
 .footer-copyright a:hover {
