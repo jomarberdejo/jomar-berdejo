@@ -577,7 +577,7 @@ footer {
   text-align: center;
   color: var(--color-text);
   margin: 15px auto;
-  font-family: Fira Code;
+  font-family: "Fira Code", "Helvetica";
 
   
 }
