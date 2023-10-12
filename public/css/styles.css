@@ -490,11 +490,8 @@ footer {
 }
 
 .footer-copyright a {
-  letter-spacing: 1px;
   text-decoration: none;
-  line-height: 1.6;
-  text-align: center;
-  color: #b0b0e9;
+  color: #b8b8c6;
   font-size: 1.2rem;
   font-weight: bold;
 }
@@ -520,6 +517,9 @@ footer {
   color: #b0b0e9;
 }
 
+.discoveries p{
+  color: #b2b2fa;
+}
 
 .social-media {
   padding: 5px 10px;
