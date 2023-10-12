@@ -472,8 +472,8 @@ hr {
 footer {
   position: relative;
   width: 100%;
-  background: #0c0636;
-  
+  background: var(--color-gradient);
+  border-top: 1px solid #9085f7;
 }
 
 .footer-content{
