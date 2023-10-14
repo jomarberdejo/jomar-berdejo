@@ -490,7 +490,11 @@ footer {
 .footer-copyright {
   border-top: 1px solid #9085f7;
   padding: 10px 0;
-  text-align: center;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 
