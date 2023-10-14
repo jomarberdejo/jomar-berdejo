@@ -1,14 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   emailjs.init("UNI1nVMwdHInsoN8I");
 
-  const loadCont = document.querySelector(".loader-container");
-
-  loadCont.style.display = "none";
-
-  const loader = document.querySelector(".loader");
-
-  loader.classList.remove("loader");
-
   
   function SendMail(event) {
     event.preventDefault();
@@ -87,4 +79,14 @@ document.addEventListener("DOMContentLoaded", function () {
   const sendBtn = document.getElementById("send-email-btn");
 
   sendBtn.addEventListener("click", SendMail);
+  
+  //Loading
+  const loadCont = document.querySelector(".loader-container");
+
+  loadCont.style.display = "none";
+
+  const loader = document.querySelector(".loader");
+
+  loader.classList.remove("loader");
+  
 });
