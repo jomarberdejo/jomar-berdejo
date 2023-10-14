@@ -395,6 +395,7 @@ hr {
 .container .card .face.face2 .content p {
   margin: 5px 0;
   padding: 0;
+  color: #ccc;
 }
 
 
@@ -406,25 +407,21 @@ hr {
   font-weight: 900;
   color: #fff;
   padding: 5px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  background-color: #0000ff;
+  
 }
 
-.container .card .face.face2 .content a:hover {
-  background-color: #0000ff55;
-  color: #fff;
-}
+
 
 .card .links {
   display: flex;
   justify-content: space-between;
 }
 .content p {
-  color: #ddd;
   padding: 5px 0;
 }
-.content p span {
+
+
+.content p strong, .content p span {
   color: #fff;
 }
 
@@ -603,14 +600,14 @@ footer {
   margin-top: 25px;
   display: block;
   padding: 5px;
-  width: 200px;
+  max-width: 220px;
   margin: auto;
   color: #fff;
   border-radius: 4px;
   font-size: 1.4rem;
   position: relative;
   overflow: hidden;
-  border: 2px solid var(--color-text);
+  outline: 2px solid var(--color-text);
   background-color: #225;
   font-weight: bold;
   z-index: 1;
@@ -634,7 +631,7 @@ footer {
 }
 
 .intro .more-about-btn:hover {
-  border-width: 3px;
+  outline-width: 3px;
   transform: scale(1.04);
 }
 
