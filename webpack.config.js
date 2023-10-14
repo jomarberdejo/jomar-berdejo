@@ -9,6 +9,7 @@ module.exports = {
     toggleMenu: path.resolve(__dirname, './src/js/toggleMenu.js'),
     header: path.resolve(__dirname, './src/js/header.js'),
     particles: path.resolve(__dirname, './src/js/particles.js'),
+    loading: path.resolve(__dirname, './src/js/loading.js'),
   },
   output: {
     path: path.resolve(__dirname, 'public'),
