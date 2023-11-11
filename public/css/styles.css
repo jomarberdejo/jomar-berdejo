@@ -1,6 +1,6 @@
 :root {
-  --font-inter: "Inter", sans-serif;
-  --font-nunito-sans: "Nunito Sans", sans-serif;
+  --font-jost: "Jost", sans-serif, "Helvetica";
+
   --color-primary: #225;
   --color-secondary: #ddd;
   --color-accent: gold;
@@ -16,7 +16,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
 
 * {
-  font-family: var(--font-inter);
+  font-family: var(--font-jost);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -520,7 +520,7 @@ footer {
   list-style: none;
 }
 
-.important-links a, .important-icons a{
+.important-links a, .important-icons a, .intro .social-media a{
   text-decoration: none;
   color: #fff;
   color: #b0b0e9;
@@ -559,36 +559,64 @@ footer {
 
 
 .intro > * {
-  text-align: center;
-  color: var(--color-text);
+  text-align: left;
+  
   margin: 15px auto;
-  font-family: "Fira Code", "Helvetica";
-
+  max-width: 400px;
+  font-family: var(--font-jost);
+  
   
 }
 
+.intro .social-media{
+  justify-content: end;
+  padding-right: 0;
+  
+}
+.intro .social-media a{
+  font-size: 2rem;
+  margin-right: 0;
+  margin-left: 15px;
+  
+}
+.intro .social-media a:first-child{
+  border-left: 1px solid #fff;
+  padding-left: 15px;
+}
 
-
-
+.intro h2{
+  text-align: end;
+  
+}
 
 .intro h3 {
-  font-size: 1.4rem;
+  font-size: 1rem;
   background-image: linear-gradient(90deg, white, yellow);
   -webkit-background-clip: text;
   color: transparent;
-  
+  text-align: end;
 }
 
 .intro p {
   font-weight: 400;
   font-size: 1.12rem;
-  margin: 2rem 5px;
+  margin-top: 3rem;
   text-wrap: balance;
+  
+}
+.intro p::before{
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  top: -10px;
+  left: 0;
+  background-color: #fff;
   
 }
 
 .intro h2 span {
-  color: var(--color-text);
+  color: #b0b0e9;
   font-weight: 700;
   font-size: 2.1rem;
  
@@ -601,7 +629,7 @@ footer {
   display: block;
   padding: 5px;
   max-width: 220px;
-  margin: auto;
+  margin: 0!important;
   color: #fff;
   border-radius: 4px;
   font-size: 1.4rem;
