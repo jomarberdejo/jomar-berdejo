@@ -575,7 +575,7 @@ footer {
   font-size: 2rem;
   margin-right: 0;
   margin-left: 15px;
-  
+  margin-top: 0;
 }
 .intro .social-media a:first-child{
   border-left: 1px solid #fff;
