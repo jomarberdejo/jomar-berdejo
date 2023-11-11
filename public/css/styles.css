@@ -10,7 +10,7 @@
   --color-border: #ccc;
   --color-shadow: #fff;
   --color-info: #00a9e2;
-  --color-text: #fff;
+  --color-text: #f9f4f4;
 }
 
 * {
@@ -29,7 +29,7 @@ html {
 }
 
 body {
-  color: var(--color-secondary);
+  color: var(--color-text);
   background-image: var(--color-gradient);
   font-size: 16px;
 }
@@ -577,9 +577,14 @@ footer {
   margin-left: 15px;
   margin-top: 0;
 }
-.intro .social-media a:first-child{
-  border-left: 1px solid #fff;
-  padding-left: 15px;
+.intro .social-media a:first-child::before{
+  content: "";
+  position: absolute;
+  left: -15px;
+  top: 0;
+  height: 100%;
+  background-color: #fff;
+  width: 1px;
 }
 
 .intro h2{
@@ -628,13 +633,13 @@ footer {
   padding: 5px;
   max-width: 220px;
   margin: 0!important;
-  color: #fff;
+  color: var(--color-text);
   border-radius: 4px;
   font-size: 1.4rem;
   position: relative;
   overflow: hidden;
-  outline: 2px solid var(--color-text);
-  background-color: #225;
+  outline: 1px solid var(--color-border);
+  background-color: transparent;
   font-weight: bold;
   z-index: 1;
   transition: transform 0.3s ease-in-out;
@@ -647,7 +652,7 @@ footer {
   left: 0;
   width: 8%;
   height: 100%;
-  background-color: #00000088;
+  background-color: #225;
   transition: width 0.3s ease;
   z-index: -1;
 }
@@ -712,7 +717,7 @@ form input[type="button"] {
   font-size: 1.1rem;
   font-weight: bold;
   color: var(--color-text);
-  background-color: #0000ff88;
+  background-color: #3535e7;
   cursor: pointer;
   
 }
