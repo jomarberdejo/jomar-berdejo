@@ -258,7 +258,7 @@ hr {
   padding: 5px;
   border-radius: 4px;
   flex: 0 0 100px;
-  background: #225;
+  background-color: #225;
   transition: transform 0.5s ease;
   cursor: pointer;
 }
