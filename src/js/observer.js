@@ -1,4 +1,4 @@
-const fadeElements = document.querySelectorAll('.fade-in, .fade-out');
+const fadeElements = document.querySelectorAll('.fade-in');
 
 const options = {
   root: null,

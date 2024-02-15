@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
     emailjs
       .send("service_nl41j9z", "template_4wwfc5i", params)
       .then(
-        (res) => {
+        () => {
           alert(
             `Hello ${name.value.trim()}, thank you for contacting us, your message was sent successfully. Kindly wait and we'll get back to you as soon as possible. Thank you!`
           );
