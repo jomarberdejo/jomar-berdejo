@@ -778,7 +778,7 @@ form input[type="button"]:hover {
   align-items: center;
   flex-direction: column;
   height: 100vh;
-  background-color: var(--color-gradient);
+  background-color: var(--color-background);
 }
 .loader {
   transform: rotateZ(45deg);
