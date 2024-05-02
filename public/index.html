@@ -1,507 +1,912 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Jomar Berdejo</title>
-  <meta property="og:title" content="Jomar Berdejo" />
-  <meta property= "og:image" content="https://github.com/jomarberdejo/jomar-berdejo/blob/main/public/images/mypic.jpg" />
-  <meta property="og:url" content="https://jomar-berdejo.vercel.app/" />
-  <meta property="og:description" content="Jomar Berdejo - A Portfolio Website" />
-  <meta property="og:type" content="website" >
-  
-  
-  <!-- Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/particles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Jomar Berdejo</title>
+    <meta property="og:title" content="Jomar Berdejo" />
+    <meta
+      property="og:image"
+      content="https://github.com/jomarberdejo/jomar-berdejo/blob/main/public/images/mypic.jpg"
+    />
+    <meta property="og:url" content="https://jomar-berdejo.vercel.app/" />
+    <meta
+      property="og:description"
+      content="Jomar Berdejo - A Portfolio Website"
+    />
+    <meta property="og:type" content="website" />
 
-  <link rel="stylesheet" href="css/styles.css">
-  
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/particles.css" />
+
+    <link rel="stylesheet" href="css/styles.css" />
+
     <!-- Dependencies-->
-  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
-  <script defer src="https://kit.fontawesome.com/ca7101e501.js" crossorigin="anonymous"></script>
-  <script defer src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-  <script defer type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com/dist/email.min.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+    ></script>
+    <script
+      defer
+      src="https://kit.fontawesome.com/ca7101e501.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"
+    ></script>
+    <script
+      defer
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com/dist/email.min.js"
+    ></script>
 
- 
-  <script defer src="js/loading.js"></script>
-  <script defer src="js/email.js"></script>
-  <script defer src="js/particles.js"></script>
-  <script defer src="js/header.js"></script>
-  <script defer src="js/animation.js"></script>
-  <script defer src="js/observer.js"></script>
-  <script defer src="js/toggleMenu.js"></script>
-
-</head>
-<body>
-  <div class="loader-container">
-    <span class="loader">
-
-    </span>
-  </div>
-
-  <div class="header-container">
-
-    <header>
-      <h2>
-        Jomar
-      </h2>
-
-      <nav>
-        <ul id="nav-list">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <div id="burger-button">
-          <span class="line1"></span>
-          <span class="line2"></span>
-          <span class="line3"></span>
-        </div>
-      </nav>
-
-    </header>
-  </div>
-
-  <div id="particles-js"></div>
-  <div class="all-section-container">
-
-
-    <section class="home fade-in" id="home">
-      <div class="intro">
-        <div class="social-media">
-
-      <a href="https://github.com/jomarberdejo" target="_blank">
-<i class="fab fa-github"></i>
-      </a>
-      <a href="https://www.linkedin.com/in/jomar-berdejo-833924252/" target="_blank">
-<i class="fab fa-linkedin"></i>
-      </a> 
-        </div>
-        <h2><span> Jomar Berdejo</span> </h2>
-
-        <h3 class="section-title"> Front-End Developer </h3>
-        <p>
-           Front-end developer with a passion for creating interactive, responsive and user-friendly websites.
-        </p>
-
-        <a href="#about" class="more-about-btn">More About Me <i class="fa-solid fa-arrow-down-short-wide"></i></a>
-      </div>
-
-    </section>
-
-
-    <section class="about fade-in" id="about">
-      <h3 class="section-title">About. <hr /></h3>
-    <div class="about-content">
-      <div class="hero">
-        <div class="about-image-container">
-
-
-          <img src="images/mypic.jpg" alt="my-profile-image" loading="lazy" width="400" height="400">
-        </div>
-      </div>
-
-      <aside>
-        <p>
-          Hello, I am <span>Jomar M. Berdejo</span> from Leyte, Philippines, and I'm looking for a job as entry level or junior front-end web developer.
-        </p>
-        <p>
-          I have a strong foundation in HTML, CSS, and JavaScript.
-          I also take pride in my ability to create websites that are not just visually appealing but also responsive. Apart from coding, I love connecting with other developers to learn from their experiences.
-
-
-        </p>
-        <a href="https://drive.google.com/file/d/1YDxWTUvW1pzP0YQqJ8qXEb6PFaKcliY_/view?usp=sharing" target="_blank"> Resume <i class="fa-solid fa-up-right-from-square"></i></a>
-      </aside>
+    <script defer src="js/loading.js"></script>
+    <script defer src="js/email.js"></script>
+    <script defer src="js/particles.js"></script>
+    <script defer src="js/header.js"></script>
+    <script defer src="js/animation.js"></script>
+    <script defer src="js/observer.js"></script>
+    <script defer src="js/toggleMenu.js"></script>
+  </head>
+  <body>
+    <div class="loader-container">
+      <span class="loader"> </span>
     </div>
 
-  </section>
+    <div class="header-container">
+      <header>
+        <h2>Jomar</h2>
 
-  <section class="skills fade-in" id="skills">
-    <h3 class="section-title"> Skills. <hr /> </h3>
+        <nav>
+          <ul id="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div id="burger-button">
+            <span class="line1"></span>
+            <span class="line2"></span>
+            <span class="line3"></span>
+          </div>
+        </nav>
+      </header>
+    </div>
 
-  <p>
-    Here are the languages, technologies, and tools that I frequently use and comfortable with for building complex and responsive websites.
-  </p>
+    <div id="particles-js"></div>
+    <div class="all-section-container">
+      <section class="home fade-in" id="home">
+        <div class="intro">
+          <div class="social-media">
+            <a href="https://github.com/jomarberdejo" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/jomar-berdejo-833924252/"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+          <h2><span> Jomar Berdejo</span></h2>
 
-  <div class="skills-content">
-    <!--
+          <h3 class="section-title">Web Developer</h3>
+          <p>
+            Web developer with a passion for creating interactive, responsive
+            and user-friendly websites.
+          </p>
+
+          <a href="#about" class="more-about-btn"
+            >More About Me <i class="fa-solid fa-arrow-down-short-wide"></i
+          ></a>
+        </div>
+      </section>
+
+      <section class="about fade-in" id="about">
+        <h3 class="section-title">
+          About.
+          <hr />
+        </h3>
+        <div class="about-content">
+          <div class="hero">
+            <div class="about-image-container">
+              <img
+                src="images/mypic.jpg"
+                alt="my-profile-image"
+                loading="lazy"
+                width="400"
+                height="400"
+              />
+            </div>
+          </div>
+
+          <aside>
+            <p>
+              Hello, I am <span>Jomar M. Berdejo</span> from Leyte, Philippines,
+              and I'm looking for a job as entry level or junior web or software
+              developer.
+            </p>
+            <p>
+              I have a strong foundation in HTML, CSS, and JavaScript. I also
+              take pride in my ability to create websites that are not just
+              visually appealing but also responsive. Apart from coding, I love
+              connecting with other developers to learn from their experiences.
+            </p>
+            <a
+              href="https://drive.google.com/file/d/1YDxWTUvW1pzP0YQqJ8qXEb6PFaKcliY_/view?usp=sharing"
+              target="_blank"
+            >
+              Resume <i class="fa-solid fa-up-right-from-square"></i
+            ></a>
+          </aside>
+        </div>
+      </section>
+
+      <section class="skills fade-in" id="skills">
+        <h3 class="section-title">
+          Skills.
+          <hr />
+        </h3>
+
+        <p>
+          Here are the languages, technologies, and tools that I frequently use
+          and comfortable with for building complex and responsive websites.
+        </p>
+
+        <div class="skills-content">
+          <!--
     <div class="card">
       <img loading="lazy" src="images/python.png" alt="python" width="100" height="100">
       <span>Python</span>
     </div>
     -->
 
-    <div class="card">
-      <img loading="lazy" src="images/php.png" alt="php" width="100" height="100">
-      <span>PHP</span>
-    </div>
+          <div class="card">
+            <img
+              loading="lazy"
+              src="images/php.png"
+              alt="php"
+              width="100"
+              height="100"
+            />
+            <span>PHP</span>
+          </div>
 
+          <div class="card">
+            <img
+              loading="lazy"
+              src="images/html.png"
+              alt="html"
+              width="100"
+              height="100"
+            />
+            <span>HTML5</span>
+          </div>
 
-    <div class="card">
-      <img loading="lazy" src="images/html.png" alt="html" width="100" height="100">
-      <span>HTML5</span>
-    </div>
+          <div class="card">
+            <img
+              loading="lazy"
+              src="images/css.png"
+              alt="css"
+              width="100"
+              height="100"
+            />
+            <span>CSS3</span>
+          </div>
 
-    <div class="card">
-      <img loading="lazy" src="images/css.png" alt="css" width="100" height="100">
-      <span>CSS3</span>
-    </div>
+          <div class="card">
+            <img
+              loading="lazy"
+              src="images/js.png"
+              alt="javascript"
+              width="100"
+              height="100"
+            />
+            <span>JavaScript</span>
+          </div>
 
-    <div class="card">
-      <img loading="lazy" src="images/js.png" alt="javascript" width="100" height="100">
-      <span>JavaScript</span>
-    </div>
+          <div class="card">
+            <img
+              loading="lazy"
+              src="images/react.png"
+              alt="react-js"
+              width="100"
+              height="100"
+            />
+            <span>React JS</span>
+          </div>
 
-    <div class="card">
-      <img loading="lazy" src="images/react.png" alt="react-js" width="100" height="100">
-      <span>React JS</span>
-    </div>
+          <div class="card">
+            <img
+              loading="lazy"
+              src="images/bootstrap.png"
+              alt="bootstrap"
+              width="100"
+              height="100"
+            />
+            <span>Bootstrap</span>
+          </div>
 
-    <div class="card">
-      <img loading="lazy" src="images/bootstrap.png" alt="bootstrap" width="100" height="100">
-      <span>Bootstrap</span>
-    </div>
+          <div class="card">
+            <img
+              loading="lazy"
+              src="images/tailwind.png"
+              alt="tailwind"
+              width="100"
+              height="100"
+            />
+            <span>Tailwind</span>
+          </div>
 
-    <div class="card">
-      <img loading="lazy" src="images/tailwind.png" alt="tailwind" width="100" height="100">
-      <span>Tailwind</span>
-    </div>
+          <div class="card">
+            <img
+              loading="lazy"
+              src="images/git.png"
+              alt="git"
+              width="100"
+              height="100"
+            />
+            <span>Git</span>
+          </div>
 
-    <div class="card">
-      <img loading="lazy" src="images/git.png" alt="git" width="100" height="100">
-      <span>Git</span>
-    </div>
+          <div class="card">
+            <img
+              loading="lazy"
+              src="images/github.png"
+              alt="github"
+              width="100"
+              height="100"
+            />
+            <span>Github</span>
+          </div>
 
-    <div class="card">
-      <img loading="lazy" src="images/github.png" alt="github" width="100" height="100">
-      <span>Github</span>
-    </div>
+          <div class="card">
+            <img
+              loading="lazy"
+              src="images/vscode.png"
+              alt="vs-code"
+              width="100"
+              height="100"
+            />
+            <span>VS Code</span>
+          </div>
 
-    <div class="card">
-      <img loading="lazy" src="images/vscode.png" alt="vs-code" width="100" height="100">
-      <span>VS Code</span>
-    </div>
+          <div class="card">
+            <img
+              loading="lazy"
+              src="images/mysql.png"
+              alt="mysql"
+              width="100"
+              height="100"
+            />
+            <span>MySQL</span>
+          </div>
 
+          <div class="card">
+            <img
+              loading="lazy"
+              src="images/mui-icon.png"
+              alt="mui"
+              width="100"
+              height="100"
+            />
+            <span>Material UI</span>
+          </div>
 
+          <div class="card">
+            <img
+              loading="lazy"
+              src="images/firebase-icon.png"
+              alt="firebase"
+              width="100"
+              height="100"
+            />
+            <span>Firebase</span>
+          </div>
 
-    <div class="card">
-      <img loading="lazy" src="images/mysql.png" alt="mysql" width="100" height="100">
-      <span>MySQL</span>
-    </div>
+          <div class="card">
+            <img
+              loading="lazy"
+              src="images/express.png"
+              alt="express-js"
+              width="100"
+              height="100"
+            />
+            <span>Express Js</span>
+          </div>
 
-    <div class="card">
-      <img loading="lazy" src="images/mui-icon.png" alt="mui" width="100" height="100">
-      <span>Material UI</span>
-    </div>
-
-    <div class="card">
-      <img loading="lazy" src="images/firebase-icon.png" alt="firebase" width="100" height="100">
-      <span>Firebase</span>
-    </div>
-
-
-  </div>
-
-</section>
-
-<section id="projects" class="projects fade-in">
-  <h3 class="section-title">Projects.<hr></h3>
-  <p class="projects-desc">
-    Here are some of the list of my projects that I have built.
-  </p>
-
-  <div class="container">
-    <div class="card">
-      <div class="face face1">
-        <div class="content">
-          <img src="images/kuyajc-fried-chicken.png" alt="kuya-jc-img" width="" height="" loading="lazy">
-          <h3>Kuya JC Fried Chicken</h3>
+          <div class="card">
+            <img
+              loading="lazy"
+              src="images/prisma.png"
+              alt="prisma-orm"
+              width="100"
+              height="100"
+            />
+            <span>Prisma ORM</span>
+          </div>
         </div>
-      </div>
-      <div class="face face2">
-        <div class="content">
-                    <h3>Kuya JC Fried Chicken</h3>
-          <p>
-            Business Landing Page that I built for my first client during my second year of college doing commision.
+      </section>
 
-            <p>
-              <span> <img loading="lazy" src="images/html.png" alt="html" width="25" height="25"> <img loading="lazy" src="images/css.png" alt="html" width="25" height="25"> <img loading="lazy" src="images/js.png" alt="html" width="25" height="25"> </span>
-            </p>
-            <div class="links">
-              <a href="https://berdejojomar-entrep.vercel.app/" target="_blank" title="Live Demo"> <i class="fa-solid fa-eye"></i></a>
+      <section id="projects" class="projects fade-in">
+        <h3 class="section-title">
+          Projects.
+          <hr />
+        </h3>
+        <p class="projects-desc">
+          Here are some of the list of my projects that I have built.
+        </p>
 
-              <a href="#" title="Source Code"><i class="fa-solid fa-code"></i></a>
+        <div class="container">
+          <div class="card">
+            <div class="face face1">
+              <div class="content">
+                <img
+                  src="images/kuyajc-fried-chicken.png"
+                  alt="kuya-jc-img"
+                  width=""
+                  height=""
+                  loading="lazy"
+                />
+                <h3>Kuya JC Fried Chicken</h3>
+              </div>
+            </div>
+            <div class="face face2">
+              <div class="content">
+                <h3>Kuya JC Fried Chicken</h3>
+                <p>
+                  Business Landing Page that I built for my first client during
+                  my second year of college doing commision.
+                </p>
 
+                <p>
+                  <span>
+                    <img
+                      loading="lazy"
+                      src="images/html.png"
+                      alt="html"
+                      width="25"
+                      height="25"
+                    />
+                    <img
+                      loading="lazy"
+                      src="images/css.png"
+                      alt="html"
+                      width="25"
+                      height="25"
+                    />
+                    <img
+                      loading="lazy"
+                      src="images/js.png"
+                      alt="html"
+                      width="25"
+                      height="25"
+                    />
+                  </span>
+                </p>
+                <div class="links">
+                  <a
+                    href="https://berdejojomar-entrep.vercel.app/"
+                    target="_blank"
+                    title="Live Demo"
+                  >
+                    <i class="fa-solid fa-eye"></i
+                  ></a>
+
+                  <a
+                    href="https://github.com/jomarberdejo/berdejojomar-businesspage"
+                    target="_blank"
+                    title="Source Code"
+                    ><i class="fa-solid fa-code"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="face face1">
+              <div class="content">
+                <img
+                  src="images/javascript-quickstart.png"
+                  alt="js-quickstart-img"
+                  width=""
+                  height=""
+                  loading="lazy"
+                />
+                <h3>JavaScript Quickstart</h3>
+              </div>
+            </div>
+            <div class="face face2">
+              <div class="content">
+                <h3>JavaScript Quickstart</h3>
+                <p>
+                  A tutorial site to help people to get started with programming
+                  or web development journey.
+                </p>
+                <p>
+                  <span>
+                    <img
+                      loading="lazy"
+                      src="images/html.png"
+                      alt="html"
+                      width="25"
+                      height="25"
+                    />
+                    <img
+                      loading="lazy"
+                      src="images/css.png"
+                      alt="html"
+                      width="25"
+                      height="25"
+                    />
+                    <img
+                      loading="lazy"
+                      src="images/js.png"
+                      alt="html"
+                      width="25"
+                      height="25"
+                    />
+                  </span>
+                </p>
+                <div class="links">
+                  <a
+                    href="https://javascript-quickstart.vercel.app"
+                    target="_blank"
+                    target="_blank"
+                    title="Live Demo"
+                    ><i class="fa-solid fa-eye"></i
+                  ></a>
+
+                  <a
+                    href="https://github.com/jomarberdejo/javascript-quickstart"
+                    title="Source Code"
+                    target="_blank"
+                    ><i class="fa-solid fa-code"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="face face1">
+              <div class="content">
+                <img
+                  src="images/web-sis.png"
+                  alt="web-based-sis-img"
+                  width=""
+                  height=""
+                  loading="lazy"
+                />
+                <h3>Student Info. System</h3>
+              </div>
+            </div>
+            <div class="face face2">
+              <div class="content">
+                <h3>Student Info. System</h3>
+                <p>
+                  A full stack system that allows admin to manage students in an
+                  easy way. The system has two roles, it includes admin and the
+                  user (students).
+                </p>
+                <p>
+                  <span>
+                    <img
+                      loading="lazy"
+                      src="images/html.png"
+                      alt="html"
+                      width="25"
+                      height="25"
+                    />
+                    <img
+                      loading="lazy"
+                      src="images/css.png"
+                      alt="html"
+                      width="25"
+                      height="25"
+                    />
+                    <img
+                      loading="lazy"
+                      src="images/js.png"
+                      alt="html"
+                      width="25"
+                      height="25"
+                    />
+                    <img
+                      loading="lazy"
+                      src="images/bootstrap.png"
+                      alt="html"
+                      width="25"
+                      height="25"
+                    />
+                    <img
+                      loading="lazy"
+                      src="images/php.png"
+                      alt="html"
+                      width="25"
+                      height="25"
+                    />
+                    <img
+                      loading="lazy"
+                      src="images/mysql.png"
+                      alt="html"
+                      width="25"
+                      height="25"
+                    />
+                  </span>
+                </p>
+                <div class="links">
+                  <a
+                    href="https://web-based-sis.infinityfreeapp.com"
+                    target="_blank"
+                    title="Live Demo"
+                    ><i class="fa-solid fa-eye"></i
+                  ></a>
+
+                  <a
+                    href="https://github.com/jomarberdejo/web-based-sis-2b"
+                    target="_blank"
+                    title="Source Code"
+                    ><i class="fa-solid fa-code"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="face face1">
+              <div class="content">
+                <img
+                  src="images/trendy.png"
+                  alt="Trendy-img"
+                  width=""
+                  height=""
+                  loading="lazy"
+                />
+                <h3>Trendy</h3>
+              </div>
+            </div>
+            <div class="face face2">
+              <div class="content">
+                <h3>Trendy</h3>
+                <p>
+                  A simple e-commerce website that helps me gain hands-on
+                  experience in using basics of Tanstack React Query, Tailwind
+                  and Context Api.
+                </p>
+                <p>
+                  <span>
+                    <img
+                      loading="lazy"
+                      src="images/react.png"
+                      alt="html"
+                      width="25"
+                      height="25"
+                    />
+                    <img
+                      loading="lazy"
+                      src="images/tailwind.png"
+                      alt="html"
+                      width="25"
+                      height="25"
+                    />
+                  </span>
+                </p>
+                <div class="links">
+                  <a
+                    href="https://trendy-web.vercel.app"
+                    target="_blank"
+                    title="Live Demo"
+                    ><i class="fa-solid fa-eye"></i
+                  ></a>
+
+                  <a
+                    href="https://github.com/jomarberdejo/shopping-web"
+                    target="_blank"
+                    title="Source Code"
+                    ><i class="fa-solid fa-code"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="face face1">
+              <div class="content">
+                <img
+                  src="images/echoed-moments.png"
+                  alt="echoed-moments-img"
+                  width=""
+                  height=""
+                  loading="lazy"
+                />
+                <h3>Echoed Moments</h3>
+              </div>
+            </div>
+            <div class="face face2">
+              <div class="content">
+                <h3>Echoed Moments</h3>
+                <p>
+                  A full-stack social media web app where you treasure memories,
+                  tell stories, and share your experiences. The users can post,
+                  like, update, delete and comment.
+                </p>
+                <p>
+                  <span>
+                    <img
+                      loading="lazy"
+                      src="images/react.png"
+                      alt="html"
+                      width="25"
+                      height="25"
+                    />
+                    <img
+                      loading="lazy"
+                      src="images/css.png"
+                      alt="html"
+                      width="25"
+                      height="25"
+                    />
+                    <img
+                      loading="lazy"
+                      src="images/firebase-icon.png"
+                      alt="html"
+                      width="25"
+                      height="25"
+                    />
+                  </span>
+                </p>
+                <div class="links">
+                  <a
+                    href="https://echoed-moments.web.app"
+                    target="_blank"
+                    title="Live Demo"
+                    ><i class="fa-solid fa-eye"></i
+                  ></a>
+
+                  <a
+                    href="https://github.com/jomarberdejo/echoed-moments"
+                    target="_blank"
+                    title="Source Code"
+                    ><i class="fa-solid fa-code"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="face face1">
+              <div class="content">
+                <img
+                  src="images/mdrrmo-carigara.png"
+                  alt="mdrrmo-carigara-image"
+                  width=""
+                  height=""
+                  loading="lazy"
+                />
+                <h3>MDRRMO Carigara</h3>
+              </div>
+            </div>
+            <div class="face face2">
+              <div class="content">
+                <h3>MDRRMO Carigara</h3>
+                <p>
+                  Features: authentication, role-based authorization, managing
+                  reports, users, events, profile. For demo you can login Email:
+                  <span class="demo-email">guest@gmail.com </span> Password:
+                  <span class="demo-pass">@Guest123</span>.
+                </p>
+
+                <p>
+                  <span>
+                    <img
+                      loading="lazy"
+                      src="images/react.png"
+                      alt="html"
+                      width="25"
+                      height="25"
+                    />
+                    <img
+                      loading="lazy"
+                      src="images/nodejs.png"
+                      alt="html"
+                      width="25"
+                      height="25"
+                    />
+                    <img
+                      loading="lazy"
+                      src="images/mysql.png"
+                      alt="html"
+                      width="25"
+                      height="25"
+                    />
+                    <img
+                      loading="lazy"
+                      src="images/mui-icon.png"
+                      alt="html"
+                      width="25"
+                      height="25"
+                    />
+                    <img
+                      loading="lazy"
+                      src="images/tailwind.png"
+                      alt="html"
+                      width="25"
+                      height="25"
+                    />
+                  </span>
+                </p>
+                <div class="links">
+                  <a
+                    href="https://carigara-incident-reporting.vercel.app"
+                    target="_blank"
+                    title="Live Demo"
+                    ><i class="fa-solid fa-eye"></i
+                  ></a>
+
+                  <a
+                    href="https://github.com/jomarberdejo/carigara-mdrrmo"
+                    title="Source Code"
+                    target="_blank"
+                    ><i class="fa-solid fa-code"></i
+                  ></a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="card">
-        <div class="face face1">
-          <div class="content">
-            <img src="images/javascript-quickstart.png" alt="js-quickstart-img" width="" height="" loading="lazy">
-            <h3>JavaScript Quickstart</h3>
-          </div>
-        </div>
-        <div class="face face2">
-          <div class="content">
-          <h3>JavaScript Quickstart</h3>
-            <p>
-              A tutorial site to help people to get started with programming or web development journey.
-            </p>
-            <p>
-              <span> <img loading="lazy" src="images/html.png" alt="html" width="25" height="25"> <img loading="lazy" src="images/css.png" alt="html" width="25" height="25"> <img loading="lazy" src="images/js.png" alt="html" width="25" height="25"> </span>
-            </p>
-            <div class="links">
-              <a href="https://javascript-quickstart.vercel.app" target="_blank" target="_blank" title="Live Demo"><i class="fa-solid fa-eye"></i></a>
-
-              <a href="#" title="Source Code"><i class="fa-solid fa-code"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="face face1">
-          <div class="content">
-            <img src="images/web-sis.png" alt="web-based-sis-img" width="" height="" loading="lazy">
-            <h3>Student Info. System</h3>
-          </div>
-        </div>
-        <div class="face face2">
-          <div class="content">
-           <h3>Student Info. System</h3>
-            <p>
-              A full stack system that allows admin to manage students in an easy way. The system has two roles, it includes admin and the user (students).
-            </p>
-            <p>
-              
-              
-              <span> 
-                <img loading="lazy" src="images/html.png" alt="html" width="25" height="25"> 
-                <img loading="lazy" src="images/css.png" alt="html" width="25" height="25">  
-                <img loading="lazy" src="images/js.png" alt="html" width="25" height="25">
-                <img loading="lazy" src="images/bootstrap.png" alt="html" width="25" height="25">
-                <img loading="lazy" src="images/php.png" alt="html" width="25" height="25">
-                <img loading="lazy" src="images/mysql.png" alt="html" width="25" height="25">
-              </span>
-            </p>
-            <div class="links">
-              <a href="https://web-based-sis.infinityfreeapp.com" target="_blank" title="Live Demo"><i class="fa-solid fa-eye"></i></a>
-
-              <a href="#" title="Source Code"><i class="fa-solid fa-code"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-           <div class="card">
-        <div class="face face1">
-          <div class="content">
-            <img src="images/trendy.png" alt="Trendy-img" width="" height="" loading="lazy">
-            <h3>Trendy</h3>
-          </div>
-        </div>
-        <div class="face face2">
-          <div class="content">
-              <h3>Trendy</h3>
-            <p>
-                A simple e-commerce website that helps me gain hands-on experience in using basics of Tanstack React Query, Tailwind and Context Api.
-            </p>
-            <p>
-              <span> 
-                <img loading="lazy" src="images/react.png" alt="html" width="25" height="25"> 
-                <img loading="lazy" src="images/tailwind.png" alt="html" width="25" height="25">  
-               
-              </span>
-            </p>
-            <div class="links">
-              <a href="https://trendy-web.vercel.app" target="_blank" title="Live Demo"><i class="fa-solid fa-eye"></i></a>
-
-              <a href="#" title="Source Code"><i class="fa-solid fa-code"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="face face1">
-          <div class="content">
-            <img src="images/echoed-moments.png" alt="echoed-moments-img" width="" height="" loading="lazy">
-            <h3>Echoed Moments</h3>
-          </div>
-        </div>
-        <div class="face face2">
-          <div class="content">
-                        <h3>Echoed Moments</h3>
-            <p>
-              A full-stack social media web app where you treasure memories, tell stories, and share your experiences. The users can post, like, update, delete and comment.
-            </p>
-            <p>
-               <span>
-                <img loading="lazy" src="images/react.png" alt="html" width="25" height="25">
-                <img loading="lazy" src="images/css.png" alt="html" width="25" height="25">
-                <img loading="lazy" src="images/firebase-icon.png" alt="html" width="25" height="25">
-               
-               </span>
-            </p>
-            <div class="links">
-              <a href="https://echoed-moments.web.app" target="_blank" title="Live Demo"><i class="fa-solid fa-eye"></i></a>
-
-              <a href="#" title="Source Code"><i class="fa-solid fa-code"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="face face1">
-          <div class="content">
-            <img src="images/mdrrmo-carigara.png" alt="mdrrmo-carigara-image" width="" height="" loading="lazy">
-            <h3>MDRRMO Carigara</h3>
-          </div>
-        </div>
-        <div class="face face2">
-          <div class="content">
-                        <h3>MDRRMO Carigara</h3>
-            <p>
-             Features: authentication, role-based authorization, managing reports, users, events, profile. For demo you can login Email: <span class="demo-email">guest@gmail.com
-             </span>  Password: <span class="demo-pass">@Guest123</span>.
-            </p>
-           
-              
-  
-            <p>
-              <span>
-
-                <img loading="lazy" src="images/react.png" alt="html" width="25" height="25">
-                <img loading="lazy" src="images/nodejs.png" alt="html" width="25" height="25">
-                <img loading="lazy" src="images/mysql.png" alt="html" width="25" height="25">
-                <img loading="lazy" src="images/mui-icon.png" alt="html" width="25" height="25">
-                <img loading="lazy" src="images/tailwind.png" alt="html" width="25" height="25">
-              </span>
-              
-            </p>
-            <div class="links">
-              <a href="https://carigara-incident-reporting.vercel.app" target="_blank" title="Live Demo"><i class="fa-solid fa-eye"></i></a>
-
-              <a href="#" title="Source Code"><i class="fa-solid fa-code"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
+      </section>
     </div>
 
-  </section>
-</div>
+    <section id="contact" class="contact fade-in">
+      <div id="particles-js2"></div>
 
-<section id="contact" class="contact fade-in">
+      <h3 class="section-title">
+        Contact.
+        <hr />
+      </h3>
+      <p>
+        You can find me on any of this social media accounts. Let's build
+        something great together 🚀 !
+      </p>
+      <div class="social-media">
+        <a href="https://www.instagram.com/a_quilaaa/" target="_blank"
+          ><img
+            src="images/icons8-instagram.gif"
+            alt="instagram"
+            loading="lazy"
+            width="65"
+            height="65"
+        /></a>
+        <a href="https://twitter.com/BerdejoJomar" target="_blank"
+          ><img
+            src="images/icons8-twitter-circled.gif"
+            alt="twitter"
+            loading="lazy"
+            width="65"
+            height="65"
+        /></a>
+        <a href="https://github.com/jomarberdejo" target="_blank"
+          ><img
+            src="images/icons8-github.gif"
+            alt="github"
+            loading="lazy"
+            width="65"
+            height="65"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/jomar-berdejo-833924252/"
+          target="_blank"
+          ><img
+            src="images/icons8-linkedin-circled.gif"
+            alt="linkedin"
+            loading="lazy"
+            width="65"
+            height="65"
+        /></a>
+      </div>
+      <p>
+        Please send your message here or email me
+        <strong
+          ><a href="mailto:jomarberdejo1@gmail.com">@jomarberdejo1@gmail.com</a>
+        </strong>
+        and I'll get back to you as soon as possible.
+      </p>
+      <div class="form-container">
+        <form>
+          <label for="fullname">Name</label>
+          <input id="fullname" type="text" name="name" />
+          <label for="email_id">Email</label>
+          <input id="email_id" type="email" name="email" />
 
-  <div id="particles-js2"></div>
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            cols="30"
+            rows="10"
+            placeholder="Enter your message here..."
+          ></textarea>
+          <input type="button" value="Send" id="send-email-btn" />
+        </form>
+      </div>
+    </section>
 
-  <h3 class="section-title">Contact.<hr></h3>
-  <p>
-    You can find me on any of this social media accounts. Let's build something great together 🚀 !
-  </p>
-  <div class="social-media">
-    <a href="https://www.instagram.com/a_quilaaa/" target="_blank"><img src="images/icons8-instagram.gif" alt="instagram" loading="lazy" width="65" height="65"></a>
-    <a href="https://twitter.com/BerdejoJomar" target="_blank"><img src="images/icons8-twitter-circled.gif" alt="twitter" loading="lazy" width="65" height="65"></a>
-    <a href="https://github.com/jomarberdejo" target="_blank"><img src="images/icons8-github.gif" alt="github" loading="lazy" width="65" height="65"></a>
-    <a href="https://www.linkedin.com/in/jomar-berdejo-833924252/" target="_blank"><img src="images/icons8-linkedin-circled.gif" alt="linkedin" loading="lazy" width="65" height="65"></a>
-  </div>
-  <p>
-    Please send your message here or email me <strong><a href="mailto:jomarberdejo1@gmail.com">@jomarberdejo1@gmail.com</a> </strong> and I'll get back to you as soon as possible.
-  </p>
-  <div class="form-container">
+    <footer class="footer-section">
+      <div class="footer-content">
+        <ul class="important-icons">
+          <li>
+            <a href="https://www.facebook.com/jemax123" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
 
-    <form>
-      <label for="fullname">Name</label>
-      <input id="fullname" type="text" name="name">
-      <label for="email_id">Email</label>
-      <input id="email_id" type="email" name="email">
+          <li>
+            <a href="https://github.com/jomarberdejo" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
 
-      <label for="message">Message</label>
-      <textarea id="message" name="message" cols="30" rows="10" placeholder="Enter your message here..."></textarea>
-      <input type="button" value="Send" id="send-email-btn">
-    </form>
-  </div>
+          <li>
+            <a href="https://www.instagram.com/a_quilaaa/" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
 
+          <li>
+            <a
+              href="https://www.linkedin.com/in/jomar-berdejo-833924252/"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
 
-</section>
+          <li>
+            <a href="tel:+639381308925" target="_blank">
+              <i class="fas fa-phone"></i>
+            </a>
+          </li>
+        </ul>
+        <div class="important-links">
+          <ul>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#skills">Skills</a>
+            </li>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
 
-
-
-<footer class="footer-section">
- <div class="footer-content">
-     <ul class="important-icons">
-    <li>
-      <a href="https://www.facebook.com/jemax123" target="_blank">
-        <i class="fab fa-facebook"></i>
-      </a> </li>
-    
-    <li>
-      <a href="https://github.com/jomarberdejo" target="_blank">
-<i class="fab fa-github"></i>
-      </a> </li>
-      
-    <li>
-      <a href="https://www.instagram.com/a_quilaaa/" target="_blank">
-<i class="fab fa-instagram"></i>
-      </a> </li>
-      
-    <li>
-      <a href="https://www.linkedin.com/in/jomar-berdejo-833924252/" target="_blank">
-<i class="fab fa-linkedin"></i>
-      </a> </li>
-      
-    <li>
-      <a href="tel:+639381308925" target="_blank">
-<i class="fas fa-phone"></i>
-      </a> </li>
-    
-      
-  </ul>
-  <div class="important-links">
-    <ul>
-      <li>
-        <a href="#home">Home</a>
-      </li>
-      <li>
-        <a href="#about">About</a>
-      </li>
-      <li>
-        <a href="#skills">Skills</a>
-      </li>
-      <li>
-        <a href="#projects">Projects</a>
-      </li>
-      <li>
-        <a href="#contact">Contact</a>
-      </li>
-    </ul>
-  </div>
-  
-
-  
-  </div>
-  
-   <div class="footer-copyright">
+      <div class="footer-copyright">
         <i class="fa-regular fa-copyright"></i>
-<a href="https://www.facebook.com/jemax123" target="_blank"> Copyright 2023 Jomar Berdejo</a>
-
-  </div>
-
-</footer>
-
-
-
-</body>
+        <a href="https://www.facebook.com/jemax123" target="_blank">
+          Copyright 2024 Jomar Berdejo</a
+        >
+      </div>
+    </footer>
+  </body>
 </html>
